@@ -26,18 +26,19 @@ Users should be able to:
 
 ### Screenshot
 
-# Desktop
+### Desktop
 ![](./screenshots/desktop/Screenshot%202023-11-10%20at%2008-34-25%20Frontend%20Mentor%20Order%20summary%20card.png)
 ![](./screenshots/desktop/Screenshot%202023-11-10%20at%2008-34-44%20Frontend%20Mentor%20Order%20summary%20card.png)
 ![](./screenshots/desktop/Screenshot%202023-11-10%20at%2008-35-08%20Frontend%20Mentor%20Order%20summary%20card.png)
 ![](./screenshots/desktop/Screenshot%202023-11-10%20at%2008-35-30%20Frontend%20Mentor%20Order%20summary%20card.png)
 
-# mobile
+### mobile
 ![](./screenshots/mobile/Screenshot%202023-11-10%20at%2008-37-26%20Frontend%20Mentor%20Order%20summary%20card.png)
+
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/AnthonyCampana/order-summary-component-main)
+- Live Site URL: [Add live site URL here](https://anthonycampana.github.io/order-summary-component-main/)
 
 ## My process
 
@@ -51,27 +52,7 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+- What I learned from this challenge is how to add css properties to elements that are being hovered over.  
 
 ### Useful resources
 
