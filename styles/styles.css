@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+@media screen and (min-width: 376px) {
+
+    body {
+        width: 100%;
+        height: 100vh;
+    }
+
+    main {
+        height: 97%;
+        width: 100%;
+        background-image: url("../images/pattern-background-desktop.svg");
+        background-repeat:no-repeat;
+        background-color: hsl(225, 100%, 94%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        height: 80%;
+        width: 30%;
+        border-radius: 20px;
+        background-color: hsl(225, 100%, 98%);
+    }
+
+    .container > img {
+        width: 100%;
+        border-radius: 20px 20px 0px 0px;
+        height: 30%;
+    }
+
+    .order-description {
+        width: auto;
+        height: 69%;
+        padding: 0% 10% 0% 10%;
+    }
+
+    .order-description > h1 {
+        text-align: center;
+        padding-top: 8%;
+        font-family: 'Red Hat Display', sans-serif;
+        padding-bottom: 4%;
+        font-weight: 900; /* needs to be adjusted*/
+    }
+
+    .order-description > p {
+        font-family: 'Red Hat Display', sans-serif;
+        line-height: 25px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        color: hsl(224, 23%, 55%);
+        margin-bottom: 5%;
+    }
+    
+    .price-plan {
+        display: flex;
+        background-color: hsl(225, 100%, 94%, .6);
+        width: 100%;
+        height: 12%;
+        border-radius: 15px;
+        justify-content: space-between;
+        padding: 7% 0% 7% 0%;
+    } 
+
+    .price-plan > img {
+        padding-left: 5%;
+    }
+
+    .annual-cost {
+        margin-right: 15%;
+    }
+
+    .annual-cost > h3 {
+        font-weight: 900;
+        font-family: 'Red Hat Display', sans-serif;
+        margin-bottom: 6%;
+
+    }
+
+    .annual-cost > p {
+        font-size: 16px;
+        font-weight: 700;
+        font-family: 'Red Hat Display', sans-serif;
+        color: hsl(224, 23%, 55%);
+    }
+
+    .change-plan {
+        margin-right: 5%;
+        padding-top: 5%;
+
+    }
+
+    .change-plan > a {
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .change-plan > a:hover {
+        color: hsl(245, 75%, 52%, .6);
+        text-decoration: none;
+        font-weight: 700;
+    }
+
+
+    .price-plan > a {
+        margin-right: 3%;
+        text-align: center;
+        height: auto;
+    }
+
+    .order-description > button {
+        margin-top: 10%;
+        width: 100%;
+        height: 13%;
+        background-color: hsl(245, 75%, 52%);
+        font-weight: 900;
+        color: white;
+        border-radius: 15px;
+        box-shadow: 0px 5px 30px hsl(245, 75%, 52%, .4);
+
+    }
+
+    .order-description > button:hover {
+        background-color: hsl(245, 75%, 52%, .6);
+    }
+
+    .cancel-order {
+        margin-top: 10%;
+        text-align: center;
+        font-weight: 900;
+        font-family: 'Red Hat Display', sans-serif;
+    }
+
+    .cancel-order > a {
+        color: hsl(224, 23%, 55%);
+        text-decoration: none;
+    }
+
+    .cancel-order > a:hover {
+        color: hsl(223, 47%, 23%);
+    }
+
+
+}
+
+
+@media screen and (max-width: 375px) {
+    body {
+        width: 100%;
+        height: 100vh;
+    }
+
+    main {
+        height: 98%;
+        width: 100%;
+        background-image: url("../images/pattern-background-mobile.svg");
+        background-repeat:no-repeat;
+        background-color: hsl(225, 100%, 94%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        height: 85%;
+        width: 87%;
+        border-radius: 25px;
+        background-color: hsl(225, 100%, 98%);
+    }
+
+    .container > img {
+        width: 100%;
+        border-radius: 25px 25px 0px 0px;
+        height: 28%;
+    }
+
+    .order-description {
+        width: auto;
+        height: 71%;
+        padding: 0% 8% 0% 8%;
+    }
+
+    .order-description > h1 {
+        text-align: center;
+        padding-top: 8%;
+        font-family: 'Red Hat Display', sans-serif;
+        padding-bottom: 4%;
+        font-weight: 900; /* needs to be adjusted*/
+        font-size: 22px;
+    }
+
+    .order-description > p {
+        font-family: 'Red Hat Display', sans-serif;
+        line-height: 25px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        color: hsl(224, 23%, 55%);
+        margin-bottom: 8%;
+    }
+    
+    .price-plan {
+        display: flex;
+        background-color: hsl(225, 100%, 94%, .6);
+        width: 100%;
+        height: 12%;
+        border-radius: 15px;
+        justify-content: space-between;
+        padding: 4% 0% 4% 0%;
+    } 
+
+    .price-plan > img {
+        padding-left: 4%;
+    }
+
+    .annual-cost > h3 {
+        font-size: small;
+        font-weight: 900;
+        font-family: 'Red Hat Display', sans-serif;
+        margin-bottom: 6%;
+
+    }
+
+    .annual-cost > p {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Red Hat Display', sans-serif;
+        color: hsl(224, 23%, 55%);
+    }
+
+    .change-plan {
+        margin-right: 5%;
+        text-align: center;
+        height: auto;
+    }
+
+    .change-plan > a {
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: 500;
+        margin-top: 10%;
+
+    }
+
+    .order-description > button {
+        margin-top: 10%;
+        width: 100%;
+        height: 12%;
+        background-color: hsl(245, 75%, 52%);
+        font-weight: 900;
+        color: white;
+        border-radius: 15px;
+        box-shadow: 10px 0px 10px ;
+    }
+
+    .cancel-order {
+        margin-top: 13%;
+        text-align: center;
+    }
+
+    .cancel-order > a {
+        text-decoration: none;
+        font-weight: 700;
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 16px;
+        color: hsl(224, 23%, 55%);
+    }
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
